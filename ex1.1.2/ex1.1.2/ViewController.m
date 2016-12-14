@@ -17,7 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSArray *ar = [NSArray arrayWithObjects:@"1", @"i", @"11", nil];
+    NSLog(@"%@",ar);
+    
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObject:@"arr" forKey:@"dic"];
+    for (id key in [dictionary keyEnumerator]) {
+        NSLog(@"Key:%@ Value:%@", key, [dictionary valueForKey:key]);
+    }
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
