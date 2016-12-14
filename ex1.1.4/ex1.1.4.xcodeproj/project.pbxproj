@@ -15,6 +15,7 @@
 		7165FA621E01081800FC6927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7165FA601E01081800FC6927 /* LaunchScreen.storyboard */; };
 		7165FA6D1E01081800FC6927 /* ex1_1_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7165FA6C1E01081800FC6927 /* ex1_1_4Tests.m */; };
 		7165FA781E01081800FC6927 /* ex1_1_4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7165FA771E01081800FC6927 /* ex1_1_4UITests.m */; };
+		7165FA8A1E010C0C00FC6927 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 7165FA891E010C0C00FC6927 /* Account.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7165FA731E01081800FC6927 /* ex1.1.4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex1.1.4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7165FA771E01081800FC6927 /* ex1_1_4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex1_1_4UITests.m; sourceTree = "<group>"; };
 		7165FA791E01081800FC6927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7165FA881E010C0C00FC6927 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		7165FA891E010C0C00FC6927 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		7165FA521E01081800FC6927 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7165FA881E010C0C00FC6927 /* Account.h */,
+				7165FA891E010C0C00FC6927 /* Account.m */,
 				7165FA531E01081800FC6927 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7165FA5A1E01081800FC6927 /* ViewController.m in Sources */,
+				7165FA8A1E010C0C00FC6927 /* Account.m in Sources */,
 				7165FA571E01081800FC6927 /* AppDelegate.m in Sources */,
 				7165FA541E01081800FC6927 /* main.m in Sources */,
 			);
