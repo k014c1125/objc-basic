@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Account.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    id test =[[Account alloc] init];
+    [test ac];
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
